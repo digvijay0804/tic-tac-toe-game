@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  tic-tac-toe:
+    build: .
+    container_name: tic-tac-toe-game
+    ports: 
+      - "3000:80"
+    restart: always
